@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   display: inline-block;
 }
+
+.curriculum{
+  margin-left: 40%;
+}
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
@@ -111,6 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   #header .social-links {
     margin-top: 15px;
   }
+  /* #header .btn {
+    display: none;
+  } */
   #header .container {
     display: flex;
     flex-direction: column;
@@ -150,6 +157,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header h2 {
     text-align: center;
+  }
+  .curriculum{
+    margin-left: 25%;
   }
 }
 
