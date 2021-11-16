@@ -1,3 +1,22 @@
+<?php
+
+require_once __DIR__.'/vendor/autoload.php';
+require_once __DIR__.'/config.php';
+
+session_start();
+
+if (!empty($_SESSION['_contact_form_error'])) {
+    $error = $_SESSION['_contact_form_error'];
+    unset($_SESSION['_contact_form_error']);
+}
+
+if (!empty($_SESSION['_contact_form_success'])) {
+    $success = true;
+    unset($_SESSION['_contact_form_success']);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +29,24 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="https://i.ibb.co/Kqsq1dH/channels4-profile.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicom/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicom/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicom/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicom/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicom/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicom/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicom/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicom/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicom/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicom/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicom/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicom/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicom/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicom/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/img/favicom/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -27,6 +62,16 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
+
+   <!-- reCAPTCHA Javascript -->
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- =======================================================
+  * Template Name: Personal - v4.6.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -35,7 +80,7 @@
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.html">Carlos Orozco</a></h1>
+      <h1><a href="../">Carlos Orozco</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I am an <span>Electronics and Communications Engineer</span> from Ecuador</h2>
@@ -84,7 +129,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/carlos orozco.png" class="img-fluid" alt="">
+          <img src="assets/img/carlos-modified.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Ingeniero  &amp; Desarrollador</h3>
@@ -95,7 +140,7 @@
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>8 Sept 1996</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>http://thingslearned.rf.gd/</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>thingslearned.rf.gd</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+593 983592690</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Ambato, Ecuador</span></li>
               </ul>
@@ -104,7 +149,7 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Ingeniero</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>orozcoalexander1996@gmail.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>corozco6489@gmail.com</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
               </ul>
             </div>
@@ -122,7 +167,7 @@ veras mi experiencia y habilidades.
           <br>
       <br>
       <div class="btn curriculum">
-        <a href="CV_OROZCO.pdf"  class="btn btn-success" download="CVOROZCO.pdf">Download CV</a>
+        <a href="CarlosOrozco.pdf"  class="btn btn-success" download="CarlosOrozco.pdf">Download CV</a>
       </div>
         </div>
       </div>
@@ -1058,7 +1103,7 @@ veras mi experiencia y habilidades.
           <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email Me</h3>
-            <p>orozcoalexander1996@gmail.com</p>
+            <p>corozco6489@gmail.com</p>
           </div>
         </div>
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
@@ -1070,33 +1115,57 @@ veras mi experiencia y habilidades.
         </div>
       </div>
 
-      <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form> -->
+      <?php
+                    if (!empty($success)) {
+                        ?>
+                        <div class="alert alert-success">Your message was sent successfully!</div>
+                        <?php
+                    }
+                    ?>
+
+                    <?php
+                    if (!empty($error)) {
+                        ?>
+                        <div class="alert alert-danger"><?= $error ?></div>
+                        <?php
+                    }
+                    ?>
+
+
+
+<form action="submit.php" method="post" >
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5"  id="message" placeholder="Message" required></textarea>
+              </div>
+              <div class="form-group text-center">
+                            <div class="g-recaptcha" data-sitekey="<?= CONTACTFORM_RECAPTCHA_SITE_KEY ?>"></div>
+              </div>             
+              <div class="text-center"><button type="submit" class="btn btn-success">Send Message</button></div>
+            </form>
+
+
 
     </div>
   </section><!-- End Contact Section -->
 
-
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+  </div>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
