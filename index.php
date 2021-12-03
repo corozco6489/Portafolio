@@ -82,7 +82,7 @@ if (!empty($_SESSION['_contact_form_success'])) {
 
       <h1><a href="../">Carlos Orozco</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <!-- <a href="index.html" class="mr-auto"><img loading="lazy" src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I am an <span>Electronics and Communications Engineer</span> from Ecuador</h2>
 
       <nav id="navbar" class="navbar">
@@ -129,7 +129,7 @@ if (!empty($_SESSION['_contact_form_success'])) {
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/carlos-modified.png" class="img-fluid" alt="">
+          <img loading="lazy" src="assets/img/carlos-modified.png" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Ingeniero  &amp; Desarrollador</h3>
@@ -495,7 +495,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="https://image.freepik.com/psd-gratis/plantilla-interfaz-whatsapp-maqueta-telefono-movil_106244-1495.jpg" class="img-fluid" alt="">
+            <img loading="lazy"  src="https://image.freepik.com/psd-gratis/plantilla-interfaz-whatsapp-maqueta-telefono-movil_106244-1495.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>ChatBot</h4>
               <br>
@@ -514,7 +514,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/daea137a-5cd3-485e-9855-ceef8b7ce951/8c87c747-d9db-4653-b2e8-893d4e4cc9b2/images/1617204293.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/daea137a-5cd3-485e-9855-ceef8b7ce951/8c87c747-d9db-4653-b2e8-893d4e4cc9b2/images/1617204293.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Optical Character Recognition
               </h4>
@@ -534,7 +534,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/things.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/things.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Pagina WEB</h4>
               <br>
@@ -551,7 +551,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="https://images.unsplash.com/photo-1528752511608-fbec4b6ea67f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80" class="img-fluid" alt="">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1528752511608-fbec4b6ea67f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=776&q=80" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>ChatBot</h4>
               <br>
@@ -569,7 +569,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-php">
           <div class="portfolio-wrap">
-            <img src="assets/img/sensores.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/sensores.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Crud Sensores</h4>
               <br>
@@ -588,7 +588,7 @@ veras mi experiencia y habilidades.
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/b6086d6c-2c90-4677-99c2-83b59ec84502/2c24a7ad-410a-4af9-85cd-3ee766cd9b30/images/1618269106.png" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/b6086d6c-2c90-4677-99c2-83b59ec84502/2c24a7ad-410a-4af9-85cd-3ee766cd9b30/images/1618269106.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Códigos de Líneas
               </h4>
@@ -608,7 +608,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/screencapture-corozco6489-github-io-Bootstrap5Simple-2021-10-18-08_45_57.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/screencapture-corozco6489-github-io-Bootstrap5Simple-2021-10-18-08_45_57.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Bootstrap 5 Simple</h4>
               <br>
@@ -627,7 +627,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-php">
           <div class="portfolio-wrap">
-            <img src="assets/img/dinamica.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/dinamica.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Tabla Dinamica</h4>
               <br>
@@ -647,7 +647,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="https://images.unsplash.com/photo-1614846027182-cecfee3a427b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="img-fluid" alt="">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1614846027182-cecfee3a427b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>GooGle Cloud</h4>
               <br>
@@ -665,7 +665,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/7544ce00-76bb-40dd-ae64-bdac9554629a/6e7e6cb0-aa24-47a7-a1a1-ed865e9ecee9/images/1616884439.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/7544ce00-76bb-40dd-ae64-bdac9554629a/6e7e6cb0-aa24-47a7-a1a1-ed865e9ecee9/images/1616884439.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Series de Fourier
               </h4>
@@ -685,7 +685,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-php">
           <div class="portfolio-wrap">
-            <img src="assets/img/login.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/login.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Tabla Dinamica</h4>
               <br>
@@ -707,7 +707,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/page1.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/page1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Portafolio Ejemplo</h4>
               <br>
@@ -726,7 +726,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="https://image.freepik.com/psd-gratis/plantilla-banner-web-delicioso-menu-hamburguesas-comida_120329-1779.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="https://image.freepik.com/psd-gratis/plantilla-banner-web-delicioso-menu-hamburguesas-comida_120329-1779.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web Tienda Food</h4>
               <br>
@@ -746,7 +746,7 @@ veras mi experiencia y habilidades.
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-php">
           <div class="portfolio-wrap">
-            <img src="assets/img/automovil.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/automovil.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Registros Placas</h4>
               <br>
@@ -766,7 +766,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/0926d5af-689c-4525-970f-ddc28ce62037/e742d0c9-67cc-41df-85fd-0960e97b6e38/images/1616884683.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/0926d5af-689c-4525-970f-ddc28ce62037/e742d0c9-67cc-41df-85fd-0960e97b6e38/images/1616884683.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Transformada de Fourier
               </h4>
@@ -786,7 +786,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=806&q=80" class="img-fluid" alt="">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1558137623-ce933996c730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=806&q=80" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Modbus</h4>
               <br>
@@ -806,7 +806,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-php">
           <div class="portfolio-wrap">
-            <img src="assets/img/agenda.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/agenda.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Registros Placas</h4>
               <br>
@@ -827,7 +827,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/99531845-4005-4440-8ddb-0cc5104f4062/63b04383-fcaf-45a5-b662-d9ab57f3734c/images/1616882985.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/99531845-4005-4440-8ddb-0cc5104f4062/63b04383-fcaf-45a5-b662-d9ab57f3734c/images/1616882985.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Antena de Onda Progresiva
               </h4>
@@ -846,7 +846,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/tienda.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/tienda.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web Tienda</h4>
               <br>
@@ -863,7 +863,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="https://images.unsplash.com/photo-1620634415912-ec5aa1e89d0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="img-fluid" alt="">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1620634415912-ec5aa1e89d0d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>GooGle Cloud</h4>
               <br>
@@ -882,7 +882,7 @@ veras mi experiencia y habilidades.
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/742c566e-a278-4e8d-b29c-08f79fb3060a/ff2c2392-d99b-4f5a-b3e5-c6fc117f34e1/images/1616880509.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/742c566e-a278-4e8d-b29c-08f79fb3060a/ff2c2392-d99b-4f5a-b3e5-c6fc117f34e1/images/1616880509.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>SINGLE STUB SHUNT TUNING
               </h4>
@@ -901,7 +901,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/page2.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/page2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Portafolio 1</h4>
               <br>
@@ -918,7 +918,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="https://images.unsplash.com/photo-1562877773-a37120131ec4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80g" class="img-fluid" alt="">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1562877773-a37120131ec4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80g" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>AWS</h4>
               <br>
@@ -937,7 +937,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/a4832235-7133-4809-8081-ccfac616edcf/023bc73a-8024-4c03-be78-763983a7eefd/images/1616892993.PNG" class="img-fluid" alt="">
+            <img loading="lazy" src="https://la.mathworks.com/matlabcentral/mlc-downloads/downloads/a4832235-7133-4809-8081-ccfac616edcf/023bc73a-8024-4c03-be78-763983a7eefd/images/1616892993.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>SINGLE STUB SERIES TUNING
               </h4>
@@ -957,7 +957,7 @@ veras mi experiencia y habilidades.
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/ejemplo.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/ejemplo.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Pagina 3</h4>
               <br>
@@ -976,7 +976,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://i.ytimg.com/vi/12cHkBRj3QY/maxresdefault.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="https://i.ytimg.com/vi/12cHkBRj3QY/maxresdefault.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4> Procesamiento de Imagenes
               </h4>
@@ -998,7 +998,7 @@ veras mi experiencia y habilidades.
         
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://i.ytimg.com/vi/UgPA1TDpH7Q/mqdefault.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="https://i.ytimg.com/vi/UgPA1TDpH7Q/mqdefault.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4> Log Periodic Dipole Antenna
               </h4>
@@ -1020,7 +1020,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/civil.png" class="img-fluid" alt="">
+            <img loading="lazy" src="assets/img/civil.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Portafolio Civil</h4>
               <br>
@@ -1039,7 +1039,7 @@ veras mi experiencia y habilidades.
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-matlab">
           <div class="portfolio-wrap">
-            <img src="https://i.ytimg.com/vi/2jk2lun9zBs/maxresdefault.jpg" class="img-fluid" alt="">
+            <img loading="lazy" src="https://i.ytimg.com/vi/2jk2lun9zBs/maxresdefault.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4> Modulacion PCM
               </h4>
@@ -1133,7 +1133,7 @@ veras mi experiencia y habilidades.
 
 
 
-<form action="submit.php" method="post" >
+<form action="submit.php" method="post"  >
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
